@@ -1,0 +1,2038 @@
+body {
+    background: none;
+    margin: 0;
+    line-height: normal;
+    font-family: serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+* {
+    box-sizing: content-box;
+}
+*:before, *:after {
+    box-sizing: content-box;
+
+}
+
+.firstnavbar {
+    background-color: whitesmoke;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+
+}
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -99999;
+    left: 0;
+    top: 0;
+    
+    background-image: url(bg4.webp);
+    margin: 0;
+    
+
+}
+
+
+.chat-container{
+    width: 100%;
+    height: 600px;
+    overflow-y: auto;
+    background-color:  #DCDCDC;
+
+}
+
+
+.message-container {
+    margin: 20px;
+    display: inline-flexbox;
+}
+
+
+
+.message-date {
+    font-size: 18px;
+}
+
+.my-message-container{
+    text-align: right;
+}
+.partner-message-container, .admin-message-container{
+    text-align: left;
+}
+
+
+
+.message-text {
+    max-width: fit-content;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
+.my-message {
+    background-color: darkblue;
+    color: white;
+    margin-left: 35%;
+    text-align: right;
+}
+
+.partner-message {
+    margin-right: 35%;
+    background-color: white;
+    text-align: left;
+}
+.admin-message {
+    margin-right: 35%;
+    background-color: firebrick;
+    color: white;
+    text-align: left;
+}
+.my-message-date{
+    margin-right: 5px;
+    text-align: right;
+}
+.partner-message-date, .admin-message-date{
+    margin-left: 5px;
+    text-align: left;
+}
+
+
+
+
+.hargera {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+    color:darkblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.register, .login, .logout {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: serif;
+    width: fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+    
+}
+
+.user {
+    float:right;
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 35px;
+    color:darkorange;
+
+}
+
+.button, .submit {
+    cursor: pointer;
+}
+
+
+.button:hover{
+    background-color: white;
+    color: darkblue;
+    
+
+}
+
+.hargeracarousel {
+    margin: auto;
+    max-width: 90%;
+    height:500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hargera-carousel-inner{
+    height:100%;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hargera-carousel-item{
+    height: 100%;
+    max-width: 100%;
+}
+
+.hargera-carousel-img {
+    max-width: 100%;
+    max-height:100%;
+    object-fit: contain;
+    position: absolute;   
+    top: 50%;
+    transform: translateY(-50%);
+    
+
+
+}
+
+form input, form textarea{
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#202020;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: white;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 9px;
+    display: flexbox;
+    font-size: 22px;
+    min-height: 900px;
+    background-color: whitesmoke;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+.container h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.itemcontainer {
+    max-width:900px;
+    background: none;
+    margin-top: 20px;
+    
+}
+
+.search {
+    background-color: whitesmoke;
+    margin: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.content {
+    padding:15px;
+
+}
+
+.input-group {
+    display: inline-flex;
+    margin: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.delete-group {
+    margin: 0;
+}
+
+.input-group label{
+    width: 230px;
+    text-align: right;
+    padding-right: 30px;
+
+}
+
+.label-group {
+    width: 230px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.info {
+    font-size: 13px;
+}
+
+
+textarea {
+    resize: none;
+    font-size: 18px;
+}
+
+.title-text {
+    width: 610px;
+    height: 50px;
+}
+
+.description-text {
+    width: 610px;
+    height: 300px;
+}
+
+.settlement-text {
+    width: 610px;
+    height: 30px;
+}
+
+input{
+    font-size: 18px;
+}
+
+
+.btn {
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+.btn2 {
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+.btn2:hover{
+    text-decoration: none;
+}
+
+.submit-div{
+    display: block;
+    text-align: center;
+
+}
+
+.submit {
+    font-size: 22px;
+    padding: 13px;
+    color: white;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+.edit-button {
+    font-size: 19px;
+    padding: 10px;
+}
+
+.search-group {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.search-options {
+    display: flexbox;
+    padding: 20px;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.search-text {
+    height: 30px;
+}
+
+.search-options .search-check{
+    margin-left: 5px;
+    
+}
+
+.search-options input {
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.search-price {
+    width: 100px;
+    height: 30px;
+}
+
+.search-checkbox {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    height: 30px;
+    width: 220px;
+    font-size: 20px;
+}
+
+.search-select {
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    height: 35px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+select {
+    background-color: #DCDCDC;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: #484848;
+}
+
+
+
+.search-main {
+   width: 50%;
+   margin-left: auto;
+   font-size: 22px;
+   border-right: none;
+   outline: none;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   
+}
+
+.submit:hover {
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+.search-submit {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 22px;
+    padding: 12px;
+    margin-right: auto;
+
+}
+
+
+
+
+.email-line{
+    width: 95%;
+}
+.name-line{
+    width: 95%;
+}
+
+
+.radio-label {
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.errors {
+    padding: 10px; 
+    border: 1px solid firebrick; 
+    color:firebrick; 
+    background-color: #ffcccc; 
+    border-radius: 5px; 
+    text-align: left;
+    margin: 0px;
+  }
+
+.ajaxerrors {
+    display: none;
+}
+
+.error {
+    margin: 5px;
+}
+
+.line {
+    display: inline-flex;
+    padding-left: 12%;
+    margin-bottom: 25px;
+
+}
+
+.content2>* {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.line label {
+    width: 270px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.line input{
+    width: 250px;
+    font-size: 22px;
+}
+
+.rating {
+    margin: auto;
+    display: block;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.positive {
+    border: 1px solid green;
+    color: green;
+    background: #dff0d8;
+}
+
+.negative {
+    border: 1px solid firebrick; 
+    color:firebrick; 
+    background-color: #fad1d0; 
+}
+
+.rating-header {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.title2 {
+    margin-top: 40px;
+}
+
+.fakeuser {
+    background-color: white;
+    font-size: 40px;
+    padding: 25px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    color: firebrick;
+    background-color: #fad1d0;
+    border-radius: 10px;
+}
+
+.rate-radio {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    width: fit-content;
+    margin-top: 15px;
+}
+
+.rate-text-div{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.success {
+    font-size: 40px;
+    padding: 25px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    color: green;
+    background-color: #dff0d8;
+    border-radius: 10px;
+    border: 1px solid green;
+  }
+
+
+.rate-text {
+    width: 80%;
+    height: 200px;
+}
+
+.navigation-buttons  {
+    text-align: center;
+    margin: auto;
+    
+}
+
+.previous {
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
+    width: 150px;
+    
+
+
+}
+
+
+.next {
+    display: inline-flex;
+    margin-left: 20px;
+    width: 150px;
+    
+
+}
+
+.rating-date {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.items {
+    display: block;
+}
+
+.item {
+    display: inline-flex;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 5px;
+    height: fit-content;
+
+}
+
+.ad-edit-item:first-child {
+    border-top: 2px solid gray;
+}
+
+
+.item-img {
+    max-height: 118px;
+    max-width: 118px;
+    display: inline;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    
+}
+
+.edit-img{
+    max-height: 130px;
+    max-width: 130px;
+    border: 1px solid gray;
+    display: block;
+}
+
+.img-with-delete{
+    margin-right: 10px;
+    display: inline-block;
+    
+}
+
+.delete-img-btn{
+    margin: auto;
+    width: fit-content;
+    color: firebrick;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.delete-img-btn:hover {
+    cursor: pointer;
+}
+
+.info2 {
+    font-size: 16px;
+}
+
+.img-container {
+    width: 70%;
+}
+
+
+.img-group {
+    margin-bottom: 0;
+    display: flex;
+}
+
+.ad-edit-item {
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: fit-content;
+    min-height: 120px;
+}
+
+.ad-item-price {
+    margin-top: 10px;
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #5d5d5d;
+    color: #484848;
+}
+
+.ad-item-title {
+    margin-top:10px;
+    font-size: 24px;
+    color: darkblue;
+}
+
+.ad-item-img{
+    max-height: 100px;
+    max-width: 100px;
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    border: 1px solid gray;
+}
+
+.item-mid-section {
+    width: 100%;
+}
+
+.item-right-section {
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.vertical-line {
+    border-left: 1px solid gray;
+    margin: auto;
+    height: 110px;
+
+}
+
+.item-title {
+    font-size: 22px;
+    margin-top: 13px;
+    color: darkblue;
+    min-height: 55px;
+    max-height: fit-content;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.nodec {
+    text-decoration: none;
+}
+
+.nodec:hover {
+    text-decoration: underline;
+}
+
+.item-user {
+    font-size: 14px;
+    display: inline;
+
+}
+
+.item-price {
+    margin-top: 20px;
+    color: darkblue;
+}
+
+.item-settlement {
+    margin-top: 20px;
+    color: #5d5d5d;
+    color: #484848;
+}
+
+.item-rating {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+
+}
+
+.item-shipping {
+    font-size: 14px ;
+    
+
+}
+
+.plus-section {
+    display: none;
+}
+.img {
+    margin: auto;
+    min-width: 145px;
+    text-align: center;
+}
+.ad-img{
+    margin: auto;
+    min-width: 132px;
+    text-align: center;
+}
+
+.user-and-rating {
+    margin-bottom: 8px;
+    
+}
+
+.ad-item-right-section {
+    margin:auto;
+    display:inline
+}
+
+.delete-btn {
+    background-color: firebrick;
+    border: 1px solid firebrick;
+}
+
+.delete-btn:hover {
+    background-color: white;
+    color: firebrick;
+    border: 1px solid firebrick;
+}
+
+.ad-page-title {
+    display: inline-flex;
+    font-size: 30px;
+    margin: 25px;
+    color: darkblue;
+}
+
+.ad-page-line {
+    border-bottom: 1px solid lightgray;
+
+}
+
+.ad-page-user{
+    display: inline-flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.ad-page-score {
+    display: inline-flex;
+    font-size: 22px;
+
+}
+
+.ad-page-date, .ad-page-category {
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.ad-page-category {
+    padding-bottom: 15px;
+}
+
+.ad-page-price {
+    font-size: 30px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color: darkblue;
+    margin-left: 35px;
+}
+
+.ad-page-settlement{
+    display: inline-flex;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    color: #5d5d5d;
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+.ad-page-shipping {
+    display: inline-flex;
+    color: #5d5d5d;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.ad-page-description {
+    margin: 20px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+.chat-input-container{
+    width:100%;
+    display: inline-flex;
+    height: fit-content;
+    margin-top:20px;
+}
+.chat-input{
+    width: 80%;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    
+    
+}
+.chat-submit {
+    margin: auto;
+    padding: 14px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 24px;
+    margin-right: 20px;
+    
+    
+}
+.chat-info{
+    margin-left:20px;
+}
+
+.contact-container {
+    display: block;
+    width: 100%;
+}
+
+.contact {
+    display: inline-flex;
+    border-bottom: 2px solid gray;
+    width: 95%;
+    padding: 15px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.contact-header {
+    display: inline-flex;
+    width: 95%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 24px;
+}
+
+.contact-date{
+    color: black;
+    
+}
+
+.contact-header-date{
+    margin-left: auto;
+}
+
+
+.contact-user{
+    color: darkblue;
+
+}
+.contact-new-message {
+    color: red;
+    margin-left: auto;
+    margin-right: 20px;
+    padding-left: 5px;
+
+}
+
+.contact:first-child {
+    border-top: 2px solid gray;
+}
+
+.new-message {
+    color: white;
+    display: inline;
+    background-color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.ad-page-button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: fit-content;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+
+    
+
+}
+
+.write-message-button {
+    text-align: center;
+    margin-bottom: 30px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.ad-page-link:hover {
+    text-decoration: none;
+}
+
+.bottom-container {
+    height: 200px;
+    background-color: #71bdd4;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.bottom-contact {
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 15px
+}
+
+.bottom-email, .bottom-phone {
+    font-size: 22px;    
+}
+
+.submit-red {
+    background-color: firebrick;
+    border: 1px solid firebrick;
+}
+
+.submit-red:hover {
+    border:1px solid firebrick;
+    color: firebrick;
+}
+
+.title3{
+    margin-bottom: 40px;
+    
+}
+
+.report-form {
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+.report-search-group {
+    margin: 15px;
+
+}
+
+.report-submit{
+    text-align: center;
+}
+
+.report-search-text{
+    height: 30px;
+}
+
+.report{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    width: 95%;
+    display: block;
+}
+
+.report-link {
+    text-decoration: none;
+    color: black;
+}
+
+.report-title {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    color: gray;
+}
+.report-group {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.report-text {
+    width: 60%;
+    display: inline-block;
+}
+
+.report-page-text{
+    display: inline-block;
+    width: 60%;
+}
+
+.report-page-title{
+    display: inline-block;
+    width: 35%;
+    color: gray;
+    vertical-align: top;
+}
+
+.report-page-row{
+    display: block;
+    margin: 10px;
+}
+
+.report-page-title2{
+    text-align: center;
+    margin: 30px;
+    color: gray;
+}
+
+.content2 .ad-page-group{
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #DFE7F1;
+    background-color: #D7E1EE;
+    
+    
+}
+
+
+
+
+@media (max-width: 1050px){
+    .container  {
+        font-size: 20px;
+    }
+    .message-date {
+        font-size: 16px;
+    }
+    .rating-date {
+        font-size: 16px;
+    }
+    .line input {
+        font-size: 20px;
+    }
+    .info {
+        font-size: 12px;
+    }
+    .input-group label {
+        width: 140px;
+        padding-right: 22px;
+    }
+    .package-label{
+        min-width: 140px;
+    }
+    .title-text, .description-text, .settlement-text {
+        width: 580px;
+    }
+}
+
+@media (max-width: 900px) {
+    .title-text, .description-text, .settlement-text {
+        width: 490px;
+    }
+    .description-text {
+        height: 380px;
+    }
+    .checkbox-container{
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    
+    ul li {
+        float: none;
+    }
+    li a {
+        font-size: 15px;
+    }
+    .firstnavbar {
+        position: relative;
+    }
+    .title-text, .description-text, .settlement-text {
+        width: 380px;
+    }
+    .title-text{
+        height: 70px;
+    }
+    .description-text {
+        height: 450px;
+    }
+    .settlement-text{
+        height: 50px;
+    }
+    .radio-label {
+        margin-right: 30px;
+    }
+    .error {
+        padding: 5px;
+    }
+    .line label {
+        width: 170px;
+    }
+    .rating-header {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .rating {
+        padding: 15px;
+    }
+    .rate-text {
+        height: 250px;
+    }
+
+    .item-img {
+        margin-right: 15px;
+    }
+
+    .item-title {
+        font-size: 20px;
+        margin-top: 13px;
+        color: darkblue;
+        min-height: 62px;
+    }
+
+    .item-user {
+        font-size: 13px;
+        display: inline;
+
+    }
+
+    .item-rating {
+        font-size: 13px;
+    }
+
+    .item-shipping {
+        font-size: 13px ;
+
+    }
+    .item-right-section {
+        padding: 10px;
+        width: 35%;
+    }
+
+    .search-options{
+        padding: 15px;
+    }
+    .search-options input, .search-checkbox, .search-select {
+        margin: 15px;
+        margin-top: 0;
+        margin-bottom: 23px;
+    }
+    .ad-item-img {
+        max-width: 140px;
+        max-height: 140px;
+        margin-right: 15px;
+        margin-left: 5px;
+
+    }
+    .ad-img {
+        min-width: 162px;
+
+
+    }
+    .ad-edit-item {
+        height: fit-content;
+        min-height: 150px;
+    }
+    .hargeracarousel{
+        height: 400px;
+    }
+
+    .contact, .contact-header{
+        font-size: 22px;
+        
+    }
+    .new-message{
+        font-size: 12px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .bottom-contact {
+        font-size: 28px;
+    }
+    
+    .bottom-email, .bottom-phone {
+        font-size: 20px;    
+    }
+    
+
+
+
+
+
+@media (max-width: 700px) {
+    .logout {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-right: 8px;
+        
+    }
+    .user {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-right: 8px;
+        
+    }
+    .fakeuser {
+        font-size: 30px;
+        padding: 17px;
+        margin-top: 40px;
+        border-radius: 7px;
+    }
+    .search-select, .search-options input {
+        font-size: 17px;
+    }
+    .search-checkbox {
+        font-size: 19px;
+    }
+    .search-main, .search-submit{
+        font-size: 21px;
+    }
+    .hargeracarousel{
+        height: 350px;
+    }
+    .ad-page-title, .ad-page-price {
+        font-size: 28px;
+    }
+    .ad-page-user, .ad-page-score, .ad-page-description, .ad-page-shipping, .ad-page-settlement {
+        font-size: 20px;
+    }
+    .ad-page-date, .ad-page-category {
+        font-size: 18px;
+    }
+    .report-page-title{
+        width: 40%;
+    }
+    .report-page-text{
+        width: 55%;
+    }
+}
+
+@media (max-width: 680px) {
+    
+    .title-text, .description-text, .settlement-text {
+        width: 300px;
+    }
+    .title-text{
+        height: 80px;
+    }
+    .description-text {
+        height: 500px;
+    }
+    .settlement-text{
+        height: 60px;
+    }
+    .radio-label {
+        margin-right: 10px;
+    }
+    .container  {
+        font-size: 18px;
+    }
+    .message-date {
+        font-size: 15px;
+    }
+    .rating-date {
+        font-size: 15px;
+    }
+    .line input {
+        font-size: 18px;
+    }
+    textarea {
+        font-size: 16px;
+    }
+    .chat-input{
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 175px;
+    }
+    .chat-submit{
+        font-size: 20px;
+        margin-right: 15px;
+        padding: 13px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .chat-input-container{
+        margin-top:15px;
+    }
+
+    .chat-info{
+        margin-left:15px;
+    }
+    .info {
+        font-size: 11px;
+    }
+    .input-group label {
+        width: 100px;
+        padding-right: 18px;
+    }
+    .package-label{
+        min-width: 100px;
+    }
+    .radio-label {
+        margin-right: 20px;
+    }
+    .line input {
+        font-size: 16px;
+    }
+
+    .plus-section {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+
+    .item-img {
+        max-height: 178px;
+        max-width: 178px;
+    }
+    .img {
+        min-width: 200px;
+    }
+    
+    
+
+    .item-right-section {
+        display: none;
+    }
+    .ad-item-right-section {
+        display:inline
+    }
+
+    .vertical-line {
+        display: none;
+
+    }
+    .item-title {
+        font-size: 22px;
+        margin-top: 15px;
+        min-height: 100px;
+    }
+
+    .item-user {
+        font-size: 14px;
+        display: inline;
+
+    }
+
+    .item-price {
+        margin-top: 0;
+        display: inline-block;
+        width: 120px;
+        font-size: 20px;
+    }
+
+    .item-settlement {
+        margin-top: 10px;
+        display: inline;
+        font-size: 20px;
+    }
+
+    .item-rating {
+        font-size: 14px;
+    }
+
+    .item-shipping {
+        display: none;
+    }
+    .ad-item-title {
+        font-size: 22px;
+    }
+    .ad-item-price{
+        font-size: 20px;
+    }
+    .contact, .contact-header{
+        font-size: 20px;
+        padding-left: 15px;
+
+    }
+    .success {
+        font-size: 30px;
+        padding: 17px;
+        margin-top: 40px;
+        border-radius: 7px;
+      }
+    
+
+    
+
+
+
+
+}
+
+@media (max-width: 620px) {
+    .login, .register {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-right: 8px;
+        
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .btn2 {
+        font-size: 15px;
+    }
+    .files {
+        font-size: 15px;
+    }
+    .submit {
+        font-size: 18px;
+    }
+    .chat-submit{
+        font-size: 20px;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+    
+    .search-group {
+        margin-top: 20px;
+        margin-bottom: 27px;
+    }
+    .search-select, .search-options input {
+        font-size: 16px;
+    }
+    .search-checkbox {
+        font-size: 18px;
+    }
+    .search-main, .search-submit{
+        font-size: 20px;
+    }
+    .ad-edit-item{
+        display: block;
+    }
+    .ad-item-img{
+        max-width: 70vw;
+        max-height: 70vw;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .ad-item-title {
+        font-size: 24px;
+    }
+    .ad-item-price{
+        font-size: 22px;
+    }
+    .ad-item-right-section {
+        display: block;
+        margin: auto;
+        width: fit-content;
+    }
+    .rate-radio{
+        font-size: 22px;
+    }
+    
+
+    
+}
+
+@media (max-width: 580px){
+    .logout {
+        float:none;
+        margin-bottom: 20px;
+        margin-left: 16px;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+    }
+    .user {
+        float:none;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+    }
+    .chat-input{
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 200px;
+    }
+    .chat-submit{
+        margin-right: 10px;
+    }
+    .chat-input-container{
+        margin-top:10px;
+    }
+
+    .chat-info{
+        margin-left:10px;
+    }
+    .btn3{
+        width: fit-content;
+        display: inline-block;
+    }
+
+    .input-group{
+        display: block;
+    }
+
+    .input-group label {
+        display: inline-flex;
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .radio-label{
+        display: inline-flex;
+    }
+    .container .content{
+        padding: 10px;
+
+    }
+    .line {
+        padding-left: 30px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .line label {
+        width: 130px;
+    }
+    
+    .line input{
+        width: 200px;
+    }
+    .title {
+        font-size: 27px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .title3{
+        margin-bottom: 30px;
+    }
+
+    .title2 {
+        margin-top: 30px;
+    }
+    .submit2 {
+        font-size: 16px;
+    }
+    .rate-text {
+        height: 300px;
+    }
+    .itemcontainer {
+        width: 100%;
+    }
+    .content {
+        margin-right: 10px;
+    }
+    .item {
+        display: block;
+        height: fit-content;
+        padding: 5px;
+    }
+    .item-img {
+        max-width: 80vw;
+        max-height: 80vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item-title {
+        width: 81vw;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+        min-height: fit-content;
+    }
+
+    .plus-section {
+        height: fit-content;
+        width: 81vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .item-price, .item-settlement{
+        font-size: 22px;
+    }
+
+    .item-price{
+        margin-right: 20px;
+    }
+
+    .user-and-rating {
+        height: fit-content;
+        width: 81vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    .search-select, .search-options input {
+        font-size: 15px;
+    }
+    .search-checkbox {
+        font-size: 17px;
+    }
+    .search-main, .search-submit{
+        font-size: 19px;
+    }
+    .checkbox-container{
+        width: 90%;
+    }
+    .hargeracarousel{
+        max-width: 100%;
+        margin-left: 10px;
+        height: 325px;
+
+    }
+    .ad-page-title, .ad-page-price {
+        font-size: 26px;
+    }
+    .ad-page-user, .ad-page-score, .ad-page-description, .ad-page-shipping, .ad-page-settlement {
+        font-size: 18px;
+    }
+    .ad-page-date, .ad-page-category {
+        font-size: 16px;
+    }
+    .contact, .contact-header{
+        font-size: 18px;
+    }
+    .contact-new-message {
+        margin-right: 10px;
+    
+    }
+    .ad-page-button {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .write-message-button {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .report-title {
+        width: 45%;
+
+    }
+    .report-text{
+        width: 50%;
+    }
+    .report-page-title{
+        width: 45%;
+    }
+    .report-page-text{
+        width: 50%;
+    }
+
+    
+
+
+    
+    
+}
+
+
+
+@media (max-width: 480px) {
+    .login, .register {
+        float:none;
+        display: block;
+        margin-left: 15px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .chat-input{
+        height: 225px;
+    }
+
+    .hargera2 {
+        padding-bottom: 10px;
+    }
+
+    .btn2 {
+        width: fit-content;
+        display: block;
+        
+    }
+    .user2 {
+        margin-bottom: 15px;
+    }
+    .logout2{
+        margin-bottom: 15px;
+    }
+    
+    .line {
+        padding-left: 10px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .line label {
+        width: 130px;
+    }
+    
+    .line input{
+        width: 200px;
+    }
+    .rating-header {
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    .rating {
+        padding: 10px;
+    }
+    .fakeuser {
+        font-size: 25px;
+        padding: 14px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .ad-item-title {
+        font-size: 23px;
+    }
+    .ad-item-price{
+        font-size: 21px;
+    }
+    .edit-button {
+        font-size: 18px;
+    }
+    .hargeracarousel{
+        height: 300px;
+
+    }
+    .ad-page-title, .ad-page-price {
+        font-size: 24px;
+        
+    }
+    .ad-page-title {
+        margin:10px;
+        margin-top: 15px;
+    }
+    .ad-page-user, .ad-page-date, .ad-page-category  {
+        margin-left: 25px;
+    }
+    .ad-page-description, .ad-page-shipping{
+        margin-left: 5px;
+    }
+    .ad-page-price, .ad-page-settlement{
+        margin-left: 20px;
+    }
+    .bottom-contact {
+        font-size: 26px;
+    }
+    
+    .bottom-email, .bottom-phone {
+        font-size: 18px;    
+    }
+    .contact, .contact-header{
+        font-size: 16px;
+        padding: 10px;
+        width: 98%;
+    }
+    .report-title {
+        width: 95%;
+
+    }
+    .report-text{
+        width: 95%;
+    }
+    .report{
+        width: 90%;
+    }
+    .report-page-title{
+        width: 95%;
+    }
+    .report-page-text{
+        width: 95%;
+    }
+    .success {
+        font-size: 25px;
+        padding: 14px;
+        margin-top: 20px;
+        border-radius: 5px;
+      }
+
+
+}
+
+@media (max-width: 400px) {
+    .title-text, .description-text, .settlement-text {
+        width: 200px;
+    }
+    .input-group {
+        margin: 5px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .container  {
+        font-size: 16px;
+
+    }
+    .message-date {
+        font-size: 14px;
+    }
+    .rating-date {
+        font-size: 14px;
+    }
+    .line input {
+        font-size: 16px;
+    }
+    textarea {
+        font-size: 14px;
+    }
+    .chat-input{
+        font-size: 16px;
+        height: 250px;
+    }
+    .chat-submit{
+        font-size: 18px;
+        padding: 11px;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+    .info {
+        font-size: 10px;
+    }
+    .container .content{
+        padding: 5px;
+
+    }
+    .btn {
+        font-size: 13.5px;
+    }
+    .btn2 {
+        font-size: 13.5px;
+    }
+    .files {
+        font-size: 13.5px;
+    }
+    .submit {
+        font-size: 16px;
+    }
+    .submit2 {
+        font-size: 14px;
+    }
+    .line {
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    
+    .line label {
+        width: 100px;
+    }
+    
+    .line input{
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .rating-header {
+        font-size: 18px;
+        padding-bottom: 7px;
+    }
+    .rating-text {
+        font-size: 14px;
+    }
+    .item-title{
+        font-size: 22px;
+    }
+    .item-price, .item-settlement {
+        font-size: 20px;
+    }
+    .plus-section{
+        margin-top: 12.5px;
+    }
+    .item-user, .item-rating {
+        font-size: 13px;
+    }
+    .ad-item-title {
+        font-size: 22px;
+    }
+    .ad-item-price{
+        font-size: 20px;
+    }
+    .edit-button {
+        font-size: 17px;
+        padding: 8px;
+    }
+    .hargeracarousel{
+        height: 270px;
+
+    }
+    .ad-page-title, .ad-page-price {
+        font-size: 22px;
+    }
+    .ad-page-user, .ad-page-score, .ad-page-description, .ad-page-shipping, .ad-page-settlement {
+        font-size: 16px;
+    }
+    .ad-page-date, .ad-page-category {
+        font-size: 14px;
+    }
+    .contact, .contact-header{
+        font-size: 14px;
+        padding: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .contact-new-message {
+        margin-right: 5px;
+    }
+
+
+
+
+
+}
+@media (max-width: 300px) {
+    .hargeracarousel{
+        height: 220px;
+
+    }
+}
+
+}
